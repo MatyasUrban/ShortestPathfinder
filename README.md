@@ -17,7 +17,7 @@ Designed, developed and programmed by  [Matyas Urban](https://www.linkedin.com/i
 
 Before running, ensure the following files are in the `cmake-build-debug` folder: `1k.txt`, `2k.txt`, `3k.txt`, `5k.txt`, `8k.txt`, `13k.txt`, `end.txt`.
 
-![](/Users/m.urban/CLionProjects/shortest-path/readme-pictures/move-files.png)
+![](readme-pictures/move-files.png)
 
 ### Usage Options
 - `--help`: Displays a help message outlining usage options.
@@ -25,9 +25,9 @@ Before running, ensure the following files are in the `cmake-build-debug` folder
 - `--custom -v [num] -d [num]`: Runs a custom experiment with a graph generated based on user-defined parameters (number of vertices (-v) and outgoing degree (-d)). It is required that vertices > 50 to ensure valid assignment and outgoing degree to be between 1 and 10 inclusive (not to make the graph too dense).
 
 **Example:**
-![](/Users/m.urban/CLionProjects/shortest-path/readme-pictures/edit-debug.png)
+![](readme-pictures/edit-debug.png)
 
-![](/Users/m.urban/CLionProjects/shortest-path/readme-pictures/edit-arguments.png)
+![](readme-pictures/edit-arguments.png)
 
 ## 2. Project Motive
 
@@ -67,7 +67,7 @@ The theoretical complexity of the implemented **Dijkstra**'s algorithm, utilizin
 
 Measurements were conducted against commit xT90O959 on an **Apple M1 Pro processor with 8 performance cores clocked at 3.2 GHz and 2 efficiency cores at 2 GHz**. Each algorithm ran on its separate thread, although the project did not utilize multithreaded algorithms.
 
-![](/Users/m.urban/CLionProjects/shortest-path/readme-pictures/running-default.png)
+![](readme-pictures/running-default.png)
 ```
 Running the default set of experiments:
 .......................................
@@ -209,4 +209,4 @@ So for example:
 
 Will produce visually (though program provides no visuals):
 
-![](/Users/m.urban/CLionProjects/shortest-path/readme-pictures/graph.png)
+![](readme-pictures/graph.png)
