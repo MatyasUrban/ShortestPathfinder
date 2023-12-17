@@ -65,7 +65,7 @@ I chose to compare Dijkstra's and Bellman-Ford algorithms as they are both found
 
 The theoretical complexity of the implemented **Dijkstra**'s algorithm, utilizing a priority queue, is **O(V + E log V)**, where V represents vertices and E edges. **Bellman-Ford**'s algorithm stands at **O(V * E)**. Given these complexities, I expected Dijkstra's algorithm to be (V * E) / (V + E log V) times faster than Bellman-Ford. This led me to assign only two outgoing edges per vertex, as denser graphs would overwhelmingly favor Dijkstra's algorithm, preventing meaningful comparison.
 
-Measurements were conducted against commit xT90O959 on an **Apple M1 Pro processor with 8 performance cores clocked at 3.2 GHz and 2 efficiency cores at 2 GHz**. Each algorithm ran on its separate thread, although the project did not utilize multithreaded algorithms.
+Measurements were conducted against commit `d82cb1b` on an **Apple M1 Pro processor with 8 performance cores clocked at 3.2 GHz and 2 efficiency cores at 2 GHz**. Each algorithm ran on its separate thread, although the project did not utilize multithreaded algorithms.
 
 ![](readme-pictures/running-default.png)
 ```
